@@ -10,6 +10,56 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 292,
+                    "y": 147,
+                    "uniqueID": 414356,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 8
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 512,
+                    "y": 149,
+                    "uniqueID": 375952,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 100
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 671,
+                    "y": 137,
+                    "uniqueID": 497674,
+                    "ioValues": [],
+                    "selectedColorIndex": "10"
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 909,
+                    "y": 128,
+                    "uniqueID": 564138,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "8mm Shaft",
+                        "numberNeeded": 1,
+                        "costUSD": 10.23,
+                        "source": "https://www.mcmaster.com/1265k64",
+                        "totalNeeded": 0
+                    }
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -17,7 +67,35 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 414356,
+                    "ap2ID": 375952
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 375952,
+                    "ap2ID": 497674
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 497674,
+                    "ap2ID": 564138
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 564138
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
