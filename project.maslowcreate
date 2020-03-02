@@ -12,8 +12,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 292,
-                    "y": 147,
+                    "x": 0.14641288433382138,
+                    "y": 0.4674329501915709,
                     "uniqueID": 414356,
                     "ioValues": [
                         {
@@ -25,8 +25,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 512,
-                    "y": 149,
+                    "x": 0.4011713030746705,
+                    "y": 0.31800766283524906,
                     "uniqueID": 375952,
                     "ioValues": [
                         {
@@ -38,8 +38,8 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 671,
-                    "y": 137,
+                    "x": 0.5797950219619327,
+                    "y": 0.475095785440613,
                     "uniqueID": 497674,
                     "ioValues": [],
                     "selectedColorIndex": "10"
@@ -47,8 +47,8 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 909,
-                    "y": 128,
+                    "x": 0.7510980966325036,
+                    "y": 0.42911877394636017,
                     "uniqueID": 564138,
                     "ioValues": [],
                     "BOMitem": {
@@ -62,8 +62,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
                     "ioValues": []
                 }
             ],

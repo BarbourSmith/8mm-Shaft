@@ -2,7 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|8mm Shaft|1|$10.23|https://www.mcmaster.com/1265k64|
-|Total: |1|$10.23| |
+|8mm Shaft|2|$10.23|https://www.mcmaster.com/1265k64|
+|Total: |2|$10.23| |
 
  3xCOG MSRP: $30.69

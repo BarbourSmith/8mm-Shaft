@@ -4,9 +4,3 @@
 
 ![](/project.svg)
 
-## 8mm Shaft
-
-
-undefined
-
-
